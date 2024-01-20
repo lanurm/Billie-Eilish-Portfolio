@@ -1,0 +1,259 @@
+<html>
+<head>
+	<title>Billie Eilish</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylesheet.css">
+ <style>
+      body{
+
+      background-color:#423F3E;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      -webkit-text-fill-color: aliceblue;
+      font-family:Helvetica;
+      font-weight: 10px;
+    }
+    
+    button{
+        -webkit-text-fill-color:#2B2B2B;
+        
+         
+    }
+
+  
+</style>
+</head>
+<body>
+
+    <ul>
+        <li  style="font-size: 20px;"><a  href="Music.html">Home</a></li>
+        <li style="font-size: 20px;"><a href="about.html">About</a></li>
+        <li style="font-size: 20px;"><a class="active" href="Trackss.html">Tracks</a></li>
+        <li style="font-size: 20px;"><a href="Tour.html">Tour</a></li>
+        <li style="font-size: 20px;"><a href="index.html">Albums</a></li>
+        <li style="font-size: 20px;"><a href="contact.php">Contact</a></li>
+
+      </ul>
+
+    <div class="b1">
+        <span class="s1">Recent Albums</span>
+    </div>
+
+      <div class="row">
+        <div class="col-sm-11">
+  
+          <div class="column">
+            <div style="padding:5%">
+          <span><h5>Billie Bosa Nova</h5></span>
+          
+          <br>
+          <audio id="myAudio" controls style="width:50%" style="align-self:left;">
+              <source src="Songs\Billie-Bossa-Nova.mp3" type="audio/mp3"> 
+              Your browser does not support the audio element.
+          </audio>
+
+          <span style="align-items: right; padding: 10%;">
+              <span><button onclick="playAudio()" type="button" style="width:10%; height:10%">Play Audio</button></span>
+              <span><button  onclick="pauseAudio()" type="button" style="width:10%; height:10%">Pause Audio</button> </span>
+              </span>
+
+
+
+              <script>
+
+                var x = document.getElementById("myAudio");
+            
+                function playAudio() {
+                  x.play();
+                }
+            
+                function pauseAudio() {
+                  x.pause();
+                }
+            
+                var aud = document.getElementById("myAudio");
+                 aud.onended = function() {
+                 alert("The audio has ended");
+                };
+            </script>
+          </div>
+
+          <div style="padding:5%">
+            <span><h5>everything I wanted</h5></span>
+            
+            <br>
+            <audio id="myAudio2" controls style="width:50%" style="align-self:left;">
+                <source src="Songs\everything-i-wanted.mp3" type="audio/mp3"> 
+                Your browser does not support the audio element.
+            </audio>
+  
+            <span style="align-items: right; padding: 10%;">
+                <span><button onclick="playAudio1()" type="button" style="width:10%; height:10%">Play Audio</button></span>
+                <span><button  onclick="pauseAudio1()" type="button" style="width:10%; height:10%">Pause Audio</button> </span>
+                </span>
+  
+  
+  
+                <script>
+  
+                  var y = document.getElementById("myAudio2");
+              
+                  function playAudio1() {
+                    y.play();
+                  }
+              
+                  function pauseAudio1() {
+                    y.pause();
+                  }
+              
+                  var aud = document.getElementById("myAudio2");
+                   aud.onended = function() {
+                   alert("The audio has ended");
+                  };
+              </script>
+            </div>
+
+            
+                      
+            <div style="padding:5%">
+              <span><h5>Lost Cause</h5></span>
+              
+              <br>
+              <audio id="myAudio3" controls style="width:50%" style="align-self:left;">
+                  <source src="Songs\Lost-Cause.mp3" type="audio/mp3"> 
+                  Your browser does not support the audio element.
+              </audio>
+    
+              <span style="align-items: right; padding: 10%;">
+                  <span><button onclick="playAudio2()" type="button" style="width:10%; height:10%">Play Audio</button></span>
+                  <span><button  onclick="pauseAudio2()" type="button" style="width:10%; height:10%">Pause Audio</button> </span>
+                  </span>
+    
+    
+    
+                  <script>
+    
+                    var z = document.getElementById("myAudio3");
+                
+                    function playAudio2() {
+                      z.play();
+                    }
+                
+                    function pauseAudio2() {
+                      z.pause();
+                    }
+                
+                    var aud = document.getElementById("myAudio3");
+                     aud.onended = function() {
+                     alert("The audio has ended");
+                    };
+                </script>
+              </div>
+  
+  
+              
+            <div style="padding:5%">
+              <span><h5>Ocean Eyes</h5></span>
+              
+              <br>
+              <audio id="myAudio4" controls style="width:50%" style="align-self:left;">
+                  <source src="Songs\Ocean-Eyes.mp3" type="audio/mp3"> 
+                  Your browser does not support the audio element.
+              </audio>
+    
+              <span style="align-items: right; padding: 10%;">
+                  <span><button onclick="playAudio3()" type="button" style="width:10%; height:10%">Play Audio</button></span>
+                  <span><button  onclick="pauseAudio3()" type="button" style="width:10%; height:10%">Pause Audio</button> </span>
+                  </span>
+    
+    
+    
+                  <script>
+    
+                    var p = document.getElementById("myAudio4");
+                
+                    function playAudio3() {
+                      p.play();
+                    }
+                
+                    function pauseAudio3() {
+                      p.pause();
+                    }
+                
+                    var aud = document.getElementById("myAudio4");
+                     aud.onended = function() {
+                     alert("The audio has ended");
+                    };
+                </script>
+              </div>
+  
+              <div style="padding:5%">
+                <span><h5>Therefore I am</h5></span>
+                
+                <br>
+                <audio id="myAudio5" controls style="width:50%" style="align-self:left;">
+                    <source src="Songs\Therefore-I-Am.mp3" type="audio/mp3"> 
+                    Your browser does not support the audio element.
+                </audio>
+      
+                <span style="align-items: right; padding: 10%;">
+                    <span><button onclick="playAudio4()" type="button" style="width:10%; height:10%">Play Audio</button></span>
+                    <span><button  onclick="pauseAudio4()" type="button" style="width:10%; height:10%">Pause Audio</button> </span>
+                    </span>
+      
+      
+      
+                    <script>
+      
+                      var t = document.getElementById("myAudio5");
+                  
+                      function playAudio4() {
+                        t.play();
+                      }
+                  
+                      function pauseAudio4() {
+                        t.pause();
+                      }
+                  
+                      var aud = document.getElementById("myAudio5");
+                       aud.onended = function() {
+                       alert("The audio has ended");
+                      };
+                  </script>
+                </div>
+
+
+
+
+          </div>
+
+          
+        </div>
+      </div>
+
+
+      <br><br><br>
+      <div id="div1"></div>
+        <script>
+          document.getElementById("div1").innerHTML =
+          "Number of links: " + document.links.length;
+          </script>
+
+        
+
+        
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script>
+  document.getElementById("Tour").innerHTML = "OUR NEXT TOUR";
+  </script>
+  
+</body>
+
+
+</html>

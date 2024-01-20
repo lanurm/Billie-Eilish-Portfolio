@@ -1,0 +1,68 @@
+   footer
+        {
+            padding: 30px;
+            padding-bottom: 50px;
+            text-align-last:  center;
+            
+        }
+        
+        .b1{
+             padding: 15%;
+             font-size: 140px;
+             font-family:Helvetica;
+             font-weight:10px;
+             text-align: center;
+
+        }
+
+        .s1{
+            
+            font-size: 40px;
+            font-family:Helvetica;
+             font-weight:10px;
+             text-align: center;
+        }
+
+       .div1{
+        background-color: #362222;
+
+       }
+
+       .di{
+        background-color: #362222;
+        fill-opacity: 0.3;
+       }
+
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow:-moz-hidden-unscrollable;
+        background-color: #171010;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #362222;
+      }
+      
+      .active {
+        background-color: #423F3E;
+      }
+
+      @import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css";
+

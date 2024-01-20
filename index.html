@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>XML and XSLT Example</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+body{
+
+    background-color:#423F3E;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     -webkit-text-fill-color: aliceblue;
+     font-family:Helvetica;
+     font-weight: 10px;
+ }
+ </style>
+</head>
+<body>
+    <ul>
+        <li  style="font-size: 20px;"><a  href="Music.html">Home</a></li>
+        <li style="font-size: 20px;"><a  href="about.html">About</a></li>
+        <li style="font-size: 20px;"><a href="Trackss.html">Tracks</a></li>
+        <li style="font-size: 20px;"><a  href="Tour.html">Tour</a></li>
+        <li style="font-size: 20px;"><a class="active" href="index.html">Albums</a></li>
+        <li style="font-size: 20px;"><a href="contact.php">Contact</a></li>
+
+      </ul>
+      <div class="b1">
+        <span class="s1">Recent Albums</span>
+    </div>
+
+    <p>The following content is generated from an XML file:</p>
+    <iframe src="tracks.xml" xslt="xmlstylesheet.xsl"></iframe>
+
+</body>
+</html>
